@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title color="light">Search test upd</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col class="ion-text-center ion-align-self-center">
+          <ion-item>
+            <ion-label>E</ion-label>
+            <ion-input [(ngModel)]="searchInput" type="search"></ion-input>
+          </ion-item>
+          <ion-button fill="outline" size="large" class="ion-padding" (click)="search()">search</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
